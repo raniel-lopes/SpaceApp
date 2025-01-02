@@ -1,11 +1,11 @@
-import styled from "styled-components"
+import { styled } from "styled-components"
 import ItemNavegacao from "./ItemNavegacao"
 
 const ListaEstilizada = styled.ul`
     list-style: none;
     padding: 0;
     margin: 0;
-    width: 212px;
+    width: 236px;
 `
 
 const BarraLateral = () => {
@@ -23,7 +23,6 @@ const BarraLateral = () => {
                     <ItemNavegacao
                         iconeAtivo="/icones/mais-vistas-ativo.png"
                         iconeInativo="/icones/mais-vistas-inativo.png"
-
                     >
                         Mais vistas
                     </ItemNavegacao>
